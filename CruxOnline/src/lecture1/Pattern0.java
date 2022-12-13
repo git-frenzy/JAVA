@@ -10,6 +10,7 @@ public class Pattern0 {
 		for (int row = 1; row <= n; row++) {
 			System.out.print("*");
 			System.out.println("");
+
 		}
 
 	}
