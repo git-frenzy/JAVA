@@ -3,17 +3,20 @@ package lecture4;
 public class RecursionDemo3 {
 
     public static void main(String[] args) {
-        PI(5);
+        PDISkip(5);
     }
 
-    public static void PI(int n) {
+    public static void PDISkip(int n) {
         if (n == 0) {
             return;
         }
-        System.out.println(n);
-        PI(n - 1);
-        System.out.println(n);
-
+        if (n % 2 == 1) {
+            System.out.println(n);
+        }
+        PDISkip(n - 1);
+        if (n % 2 == 0) {
+            System.out.println(n);
+        }
 
     }
 }
