@@ -16,7 +16,6 @@ public class Sort_Recursion {
     public static int[] takeInput() {
         System.out.println("size of array ?");
         int s1 = scn.nextInt();
-
         int arr[] = new int[s1];
 
         for (int i = 0; i < arr.length; i++) {
@@ -29,14 +28,11 @@ public class Sort_Recursion {
     public static boolean isSorted(int[] arr, int si) {
         if (si == arr.length - 1) {
             return true;
-        }
-        if (arr[si] > arr[si + 1]) {
+        }if (arr[si] > arr[si + 1]) {
             return false;
         } else {
             boolean restAns = isSorted(arr, si + 1);
             return restAns;
         }
-
-
     }
 }
