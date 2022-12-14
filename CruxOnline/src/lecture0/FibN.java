@@ -10,17 +10,19 @@ public class FibN {
 		int n = scn.nextInt();
 		int a = 0;
 		int b = 1;
-		int counter = 1;
+		int i = 1;
 
-		while (counter <= n + 1) {
+		while (i <= n + 1) {
 			System.out.println(a);
 			int sum = a + b;
 			a = b;
 			b = sum;
-			counter++;
+ 			i++;
 
 		}
 
 	}
 
 }
+
+

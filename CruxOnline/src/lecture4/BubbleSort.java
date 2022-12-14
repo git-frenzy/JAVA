@@ -32,12 +32,9 @@ public class BubbleSort {
 
     public static void display(int[] arr) {
 
-        for (int i = 0; i < arr.length; i += 10) {
-
             System.out.println();
             System.out.println("Array = " + Arrays.toString(arr));
 
-        }
     }
 
     public static void bubbleSort(int[] arr) {

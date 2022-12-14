@@ -15,7 +15,6 @@ public class RecursionDemo5 {
 
         System.out.println(power(x, n));
 
-
     }
 
     public static int power(int x, int n) {
@@ -26,7 +25,6 @@ public class RecursionDemo5 {
         int pnm1 = power(x, n - 1);   // pnm1 = Power Of N-1
         int pn = x * pnm1;               // pn = Power Of N
         return pn;
-
 
     }
 }
