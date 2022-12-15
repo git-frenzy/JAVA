@@ -3,7 +3,7 @@ package lecture4;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Sort_Recursion {
+public class IsSort_Recursion {
     static Scanner scn = new Scanner(System.in);
 
     public static void main(String[] args) {
