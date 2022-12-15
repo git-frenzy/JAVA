@@ -10,8 +10,8 @@ public class LinearSearch {
 	public static void main(String[] args) {
 		int[] array = takeInput();
 
-		display(array);
-
+//		display(array);
+		System.out.println(Arrays.toString(array));
 		System.out.println();
 
 		System.out.println("Search index " + linearSearch(array));
@@ -30,16 +30,6 @@ public class LinearSearch {
 
 		return arr;
 
-	}
-
-	public static void display(int[] arr) {
-
-		for (int i = 0; i < arr.length; i += 5) {
-
-			System.out.println();
-
-			System.out.println("Array = " + Arrays.toString(arr));
-		}
 	}
 
 	public static int linearSearch(int[] arr) {
