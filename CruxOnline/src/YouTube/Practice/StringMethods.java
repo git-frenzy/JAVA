@@ -6,7 +6,7 @@ public class StringMethods {
         String name = "     bro     ";
         boolean result = name.equalsIgnoreCase("Bro");
         System.out.println(result);
-        
+
         int result2 = name.length();
         System.out.println(result2);
 
