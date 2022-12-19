@@ -12,14 +12,12 @@ public class SelectionSort {
 	   	int[] array = takeInput();
 		display(array);
 		selectionSort(array);
-
 	}
 
 	public static int[] takeInput() {
 
 		System.out.println("size of array ?");
 		int s1 = scn.nextInt();
-
 		int arr[] = new int[s1]; // Input will allocate the size of array
 
 		for (int i = 0; i < arr.length; i++) {
