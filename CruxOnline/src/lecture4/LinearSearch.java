@@ -37,7 +37,6 @@ public class LinearSearch {
 		System.out.print("Enter search INT ");
 		int s2 = scn.nextInt();
 		System.out.println();
-
 		for (int i = 0; i < arr.length; i++) {
 			if (arr[i] == s2) {
 				return i;
@@ -46,5 +45,4 @@ public class LinearSearch {
 		}
 		return -1;
 	}
-
 }
